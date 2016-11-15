@@ -1,21 +1,12 @@
 # Git Kata
 
-Inspired by [Git Kata](http://blog.schauderhaft.de/gitkata/)
+## quickfix
 
-## Usage
+This is a common situation: you are working on something and you need to make a quick fix.
+You need to add something new to the file but you want to preserve your current work and commit it later.
 
-Fork this repo and clone your fork. Katas are on separate branches.
+Execute `kata.sh` script and:
+ * add title to the file ('My favorite colors') and commit this change
+ * add final color to your list and commit it
 
-To start training follow description of the kata in `README.md`. After completing kata push it to your repo.
-
-If you want to start over or your fork is broken beyond repair just delete it and fork original repo again.
-
-## Resources
- * [Git docs](https://git-scm.com/documentation)
- * [Getting Git Right](https://www.atlassian.com/git/)
- * [Git in six hundred words](https://maryrosecook.com/blog/post/git-in-six-hundred-words)
-
-## Tools
- * [Meld](http://meldmerge.org/) - Visual diff and merge tools
- * [SourceTree](https://www.sourcetreeapp.com/) - Git and Hg client for macOS and Windows
- * [GitKraken](https://www.gitkraken.com/) - Cross-platform Git client
+ Hint: try to do this kata in two ways, using `git add -p` and `git stash`.
